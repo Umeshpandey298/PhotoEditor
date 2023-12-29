@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+.canvas {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor {
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.text-property {
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 5rem 10px;
+    background: #d0cfcf;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.editor {
+    position: relative;
+}
+
+#textBoxContainer {
+    /* ... (existing styles) ... */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+}
+
+.form-control {
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+}
+
+@media (max-width: 768px) {
+    .canvas {
+        flex-direction: column;
+    }
+
+    /* .editor {
+        width: 100%;
+    }
+
+    .text-property {
+        width: 100%;
+    } */
+}
